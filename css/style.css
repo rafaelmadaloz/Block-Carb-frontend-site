@@ -1,0 +1,473 @@
+@font-face {
+    src: url(../fonts/Helvetica-Condensed-Light.otf);
+    font-family: helvetica-light;
+}
+
+@font-face {
+    src: url(../fonts/Helvetica-Condensed-Bold.otf);
+    font-family: helvetica-bold;
+}
+
+@font-face {
+    src: url(../fonts/Helvetica-Condensed-Black.otf);
+    font-family: helvetica;
+}
+
+a:link {
+    text-decoration:none !important;
+}
+a:visited {
+    text-decoration:none !important;
+}
+a:hover {
+    text-decoration:underline !important;
+}
+
+.home {
+    background-image: url('../img/background-woman.png');
+    background-repeat:no-repeat;
+    background-position: center;
+    margin: 0 auto;
+    height: 500px;
+}
+
+.home-content {
+    margin-top: 80px;
+}
+
+.titulo-home {
+    color: white;
+    font-family: helvetica, sans-serif;
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 0.9;
+}
+
+.titulo-home span {
+    color: #fda53e;
+}
+
+.subtitulo-home p {
+    color: white;
+
+}
+
+.subtitulo-home {
+    max-width: 350px;
+    margin-top: 35px;
+    font-family: "Open Sans", arial, sans-serif;
+}
+
+
+.call-to-action {
+    margin-top: 35px;
+    padding: 18px 14px 18px 14px;
+    background: #fda53e;
+    word-break: break-all;
+    max-width: 220px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.call-to-action a {
+    color: white !important;
+    font-family: helvetica-bold, sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
+    line-height: 1.2;
+    font-size: 24px;
+}
+
+
+.frascos-home {
+    width: 100%;
+    text-align: center;
+    margin-top: -200px;
+    margin-left: 100px;
+}
+
+.beneficios {
+    margin-top: 180px;
+}
+
+.titulo-centro {
+    width: 100%;
+    text-align: center;
+
+}
+
+.titulo-centro h3 {
+    font-family: helvetica;
+    font-size: 70px;
+    text-transform: uppercase;
+    line-height: 0.9;
+    color: #00a074;
+}
+
+.paragrafo-beneficio,
+.subtitulo-beneficio {
+    margin-top: 35px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.paragrafo-beneficio p {
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.2;
+}
+
+
+.subtitulo-beneficio h4 {
+    font-family: helvetica;
+    font-size: 30px;
+    text-transform: uppercase;
+    line-height: 1.0;
+    color: #00a074;
+}
+
+.titulo-imagem {
+    margin-top: 60px;
+}
+
+.widget {
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+}
+
+.widgets-beneficios {
+    text-align: center;
+}
+
+.btn-no-centro {
+    display: table;
+    margin: 0 auto;
+}
+
+.recomendacoes,
+.como-block-carb-ajuda {
+    background-image: linear-gradient( #f0f0f0, white);
+}
+
+
+.como-block-carb-ajuda {
+    margin-top: 70px;
+}
+
+.como-block-carb-ajuda img{
+    max-width: 100%;
+
+}
+
+.titulo-left {
+    margin-top: 60px;
+}
+
+.titulo-left h4 {
+    font-family: helvetica;
+    font-size: 70px;
+    text-transform: uppercase;
+    line-height: 0.9;
+    color: #00a074;
+}
+.como-block-carb-ajuda .titulo-left h4 {
+    font-size: 65px;
+}
+
+.imagem-right{
+    margin-top: 200px;
+}
+
+.itens {
+    margin-top: 90px;
+}
+
+.item img {
+    float: left;
+    margin-right: 15px;
+}
+
+.item p {
+    font-family: helvetica-bold;
+    font-size: 25px;
+    text-transform: uppercase;
+    line-height: 0.9;
+    color: #00a074;
+    margin-top: 40px;
+}
+
+.botao-padrao {
+    margin-top: 70px;
+}
+
+.subtitulo {
+    margin-top: 70px;
+    max-width: 300px;
+}
+.subtitulo p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+}
+
+#demo {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.carousel-inner img {
+    margin: auto;
+}
+
+.corpo {
+    margin-top: 70px;
+}
+
+.corpo .titulo-left {
+    margin-top: 150px;
+    max-width: 350px;
+}
+
+.melhor-oferta {
+    margin-top: 70px;
+}
+
+.melhor-oferta .titulo-centro p {
+    margin-top: 40px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+}
+
+.melhor-oferta img {
+    margin-top: 100px;
+}
+
+.melhor-oferta .titulo-left {
+    max-width: 480px;
+}
+
+.tenha-resultados .subtitulo,
+.melhor-oferta .subtitulo {
+    max-width: 100%;
+
+}
+
+.melhor-oferta .subtitulo p {
+    font-size: 20px;
+    line-height: 1.3;
+}
+
+.tenha-resultados img {
+    margin-top: 50px;
+}
+
+.tenha-resultados {
+    margin-top: 70px;
+}
+
+.compra-internet {
+    margin-top: 70px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background: #00a174;
+}
+
+.compra-internet .titulo-centro h3,
+.compra-internet .titulo-centro p{
+    color: white;
+}
+
+.compra-internet .titulo-centro span {
+    color: #ffae00;
+}
+
+.compra-internet .titulo-centro p{
+    margin-top: 30px;
+    color: white;
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.widgets-compra-internet{
+    text-align: center;
+    margin-top: 70px;
+}
+
+.widgets-compra-internet p {
+    margin-top: 20px;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 18px;
+}
+
+.img2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.img3 {
+    margin-top: 18px;
+    margin-bottom: 10px;
+}
+.img4 {
+    margin-bottom: 5px;
+}
+
+.perguntas .titulo-left h3 {
+    font-family: helvetica-light, sans-serif;
+    font-size: 35px;
+    text-transform: uppercase;
+    line-height: 0.9;
+    color: #00a074;
+}
+
+.block-pergunta {
+    background: #eeeeee;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 3px;
+    margin-bottom: 10px;
+}
+
+.block-perguntas {
+    margin-top: 70px;
+}
+
+.block-pergunta h3 {
+    font-family: helvetica-bold, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 0.9;
+    color: #00a074;
+}
+
+.footer {
+    margin-top: 70px;
+    background: #ededed;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.footer .titulo h3 {
+    font-family: helvetica-light, sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    line-height: 0.9;
+    color: #00a074;
+}
+
+.footer .titulo p,
+.footer .titulo a {
+    margin-top: 3px;
+    color: #00a074;
+    font-size: 14px;
+    line-height: 0.9;
+    text-decoration: none;
+}
+
+.seguranca {
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.footer-end {
+    text-align: center;
+}
+
+.footer-end h3 {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.footer-end p {
+    margin-top: 20px;
+    font-size: 12px;
+
+}
+
+footer {
+    margin: 0;
+    background: #00a074;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+    padding: 25px;
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+
+@media (max-width: 1100px) {
+    .frascos-home {
+        display: none;
+    }
+
+}
+
+@media (max-width: 800px) {
+    img {
+        max-width: 100%;
+    }
+    .home {
+        margin:auto;
+        background-size: auto 100%;
+        height: 100vh;
+        text-align: center;
+    }
+    .frascos-home {
+        display: inline;
+        margin: 0;
+        width: 100%;
+    }
+    .frascos-home img {
+        margin-top: 40px ;
+        width: 50%;
+        position: center;
+    }
+    .call-to-action {
+        max-width: 100%;
+    }
+
+    .titulo-left h4{
+        font-size: 50px;
+    }
+    .corpo .titulo-left {
+        margin-top: 50px;
+    }
+
+    .corpo {
+        text-align: center;
+        margin: 0;
+    }
+
+    .corpo img {
+        margin-top: 50px;
+        width: 80%;
+    }
+
+    .subtitulo {
+        max-width: 100%;
+    }
+
+    .melhor-oferta img {
+        width: 100%;
+    }
+    .titulo-centro h3 {
+        font-size: 50px;
+    }
+    .footer .titulo {
+        margin-bottom: 20px;
+    }
+
+    .seguranca img {
+        width: 100%;
+    }
+
+}
